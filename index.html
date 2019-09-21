@@ -9,13 +9,14 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="header">
+        <div class="label">
             <h1>Tip Calculator</h1>
         </div>
         <div class="body">
             <div class="bill-amt">
                 <p>How much as your bill?</p>
-                <input type="number" name="quantity" min="1" id="bill">
+                <input type="text" name="quantity" placeholder="Bill Amount" id="bill">
+
             </div>
             <div class="service">
                 <p>How was your service?</p>
@@ -45,8 +46,15 @@
             <div class="calculate-button">
                 <button type="button" onclick="tipCalculation()">Calculate Tip</button>
             </div>
+            <div id="summation-section">
+                <h2 id="phrase-section"></h2>
+                <h2 id="answered-section"></h2>
+
+            </div>
         </div>
     </div>
+
+
     <!-- linking index.js file -->
     <script src="index.js"></script>
 </body>

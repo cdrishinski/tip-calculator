@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+.label {
+    background-color: blue;
+
+}
 .calculator {
     margin-top: 10%;
     border: 2px solid black;
@@ -16,4 +20,9 @@ div {
 }
 .calculator, .header {
     background-color: white;
+}
+
+#answered-section {
+    color: blue;
+    font-weight: bold;
 }

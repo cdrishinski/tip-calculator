@@ -4,11 +4,16 @@
     margin: 0 auto;
 }
 
+body {
+    background-color: #77967f;
+}
 .label {
-    background-color: blue;
+    background-color: #d14141;
+    margin-top: 0;
 
 }
 .calculator {
+    border-radius: 25px;
     margin-top: 10%;
     border: 2px solid black;
     background-color: white;

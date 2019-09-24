@@ -8,6 +8,11 @@ function tipCalculation (){
     if (bill == '') {
         return alert("Please enter a Bill Amount")
     }
+
+    // create error handling if service section is blank
+    if (tip == '') {
+        return alert("Please enter how your service was");
+    }
     // create calculation of tip size
     total = (bill * tip )/ partySize;
 

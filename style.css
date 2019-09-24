@@ -10,6 +10,7 @@ body {
 .label {
     background-color: #d14141;
     margin-top: 0;
+    border-radius: 23px 23px 0 0;
 
 }
 .calculator {
@@ -25,6 +26,22 @@ div {
 }
 .calculator, .header {
     background-color: white;
+}
+
+#dolla-sign {
+    display: inline;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 
 #answered-section {

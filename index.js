@@ -19,6 +19,6 @@ function tipCalculation (){
     // post answer to id="answered-section"
 
     document.getElementById("phrase-section").innerHTML = "Tip between all parties is -" ;
-    document.getElementById("answered-section").innerHTML = "$" + total.toFixed(2);
+    document.getElementById("answered-section").innerHTML = "$" + total.toFixed(2) + " each";
 
 }
